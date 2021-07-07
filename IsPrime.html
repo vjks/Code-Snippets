@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p id="display"></p>
+	<script>
+		let n = 97;
+		const isPrime = {
+			value: function() {
+				for( let x = 2; x * x <= n; x++ ) {
+					if( n % x == 0) {
+						return false;
+					}
+				}
+				return true;
+			}
+		}
+
+		document.getElementById("display").innerHTML = isPrime.value();
+	</script>
+</body>
+</html>
