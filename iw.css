@@ -1,39 +1,45 @@
 /*Start - For the selected lesson title which has a topic in it */
 .learndash-wrapper .ld-course-navigation.ld-course-nav-2039 .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .learndash-wrapper .ld-course-navigation.ld-course-nav-2039 .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
-	/*color: #b6d6ed !important;*/
-	color: white !important;
+    /*color: #b6d6ed !important;*/
+    color: white !important;
 }
 /*End - For the selected lesson title which has a topic in it */
 
 .learndash-wrapper .ld-course-navigation.ld-course-nav-142 .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .learndash-wrapper .ld-course-navigation.ld-course-nav-142 .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
-	color: white !important;
-	/*color: #fae7d1 !important;*/
+    color: white !important;
+    /*color: #fae7d1 !important;*/
 }
 
 /* Start - For the selected lesson title which has a topic in it in the Tutorial course */
 .learndash-wrapper .ld-course-navigation.ld-course-nav-3269 .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .learndash-wrapper .ld-course-navigation.ld-course-nav-3269 .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
-	color: white !important;
+    color: white !important;
 }
 /* End - For the selected lesson title which has a topic in it in the Tutorial course */
 
+/*Start - For the selected lesson title which has a topic in it in the Math course */
+.learndash-wrapper .ld-course-navigation.ld-course-nav-2070 .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .learndash-wrapper .ld-course-navigation.ld-course-nav-2070 .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
+    /*color: #b6d6ed !important;*/
+    color: white !important;
+}
+/*End - For the selected lesson title which has a topic in it in the Math course */
 
 .iw-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .iw-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
-	color: white !important;
+    color: white !important;
     /*color: #fae7d1 !important;*/
 }
 
 
 /*Start - Add double arrow after the currently active sidebar item */
 .iw-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading::after{
- 	content: url('/wp-content/uploads/2021/10/Arrow-Menu-Orange-02.png');
-	height: 32px;
+    content: url('/wp-content/uploads/2021/10/Arrow-Menu-Orange-02.png');
+    height: 32px;
 }
 /*End - Add double arrow after the currently active sidebar item */
 
 
 .ld-lesson-list-142 .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .ld-lesson-list-142 .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
     color: green !important;
-	/*color: #fae7d1 !important;*/
+    /*color: #fae7d1 !important;*/
 }
 
 
@@ -41,8 +47,8 @@
 a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-item::after {
     content: url(/wp-content/uploads/2021/10/Arrow-Menu-Orange-02.png);
     height: 32px;
-	position: absolute;
-   	right: 10px;
+    position: absolute;
+    right: 10px;
 }
 /*End - Display double arrows after the topic in the sidebar*/
 
@@ -50,24 +56,33 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
 .postid-1461 a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-item::after {
     content: url(/wp-content/uploads/2021/11/Arrow-Menu-Blue-01.png);
     height: 32px;
-	position: absolute;
-   	right: 10px;
+    position: absolute;
+    right: 10px;
 }
 /* End - Add double arrows to the selected topic in Welding theory */
 
 /*Start - Display double arrows after the topic in the sidebar of the Tutorial course */
 .ld-course-nav-3269 a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-item::after {
-    content: url(/wp-content/uploads/2021/11/Arrow-Menu-Red-01.png);
+    content: url(/wp-content/uploads/2021/11/Arrow-Menu-Gold-01.png);
     height: 32px;
-	position: absolute;
-   	right: 10px;
+    position: absolute;
+    right: 10px;
 }
 /*End - Display double arrows after the topic in the sidebar of the Tutorial course */
 
+/*Start - Display double arrows after the topic in the sidebar of the Math course */
+.ld-course-nav-2070 a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-item::after {
+    content: url(/wp-content/uploads/2021/11/Arrow-Menu-Red-01.png);
+    height: 32px;
+    position: absolute;
+    right: 10px;
+}
+/*End - Display double arrows after the topic in the sidebar of the Math course */
+
 /*Start - Add double arrow after the currently active sidebar item in welding theory*/
 .welding-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading::after{
- 	content: url('/wp-content/uploads/2021/11/Arrow-Menu-Blue-01.png');
-	height: 32px;
+    content: url('/wp-content/uploads/2021/11/Arrow-Menu-Blue-01.png');
+    height: 32px;
 }
 /*End - Add double arrow after the currently active sidebar item in welding theory*/
 
@@ -80,15 +95,15 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
 
 /*Start - Add double arrow after the currently active sidebar item in Math*/
 .math-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading::after{
- 	content: url('/wp-content/uploads/2021/11/Arrow-Menu-Gold-01.png');
-	height: 32px;
+    content: url('/wp-content/uploads/2021/11/Arrow-Menu-Red-02.png');
+    height: 32px;
 }
 /*End - Add double arrow after the currently active sidebar item in Math*/
 
 /*Start - Add double arrow after the currently active sidebar item in the Tutorial course */
 .learndash-wrapper .ld-course-navigation.ld-course-nav-3269 .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading::after{
- 	content: url('/wp-content/uploads/2021/11/Arrow-Menu-Red-01.png');
-	height: 32px;
+    content: url('/wp-content/uploads/2021/11/Arrow-Menu-Gold-01.png');
+    height: 32px;
 }
 /*End - Add double arrow after the currently active sidebar item in the Tutorial course */
 
@@ -102,19 +117,19 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
 
 .welding-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .welding-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
     /*color: #b6d6ed !important;*/
-	color: white !important;
+    color: white !important;
 }
 
 /* Start - Sets Blueprint reading sidebar lesson title color to white */
 .blueprint-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .blueprint-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
     /*color: #c4aeb6 !important;*/
-	color: white !important;
+    color: white !important;
 }
 /* End - Sets Blueprint reading sidebar lesson title color to white */
 
 .math-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .math-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
     /*color: #bac4ae !important;*/
-	color: white !important;
+    color: white !important;
 }
 
 .learndash-wrapper .ld-expand-button.ld-button-alternate {
@@ -169,61 +184,61 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
  
 /*** At these sizes the sidebar gets squeezed ***/
 @media all and (min-width: 820px) and (max-width: 1250px) {
-	.lesson-page .et_pb_column.et_pb_column_2_3.et_pb_column_0_tb_body.et_pb_css_mix_blend_mode_passthrough{
-		width: 100% !important;
-	}
-	
-	.lesson-page .et_pb_column.et_pb_column_1_3.et_pb_column_1_tb_body.et_pb_css_mix_blend_mode_passthrough {
-		width: 100% !important;
-	}
-	
-	/* Both the progress bar and the course navigation widget need to have a width of 100%*/
-	.lesson-page .et_pb_widget.widget_ldcourseprogress, .lesson-page .et_pb_widget.widget_ldcoursenavigation {
-		width: 100%
-	}
+    .lesson-page .et_pb_column.et_pb_column_2_3.et_pb_column_0_tb_body.et_pb_css_mix_blend_mode_passthrough{
+        width: 100% !important;
+    }
+    
+    .lesson-page .et_pb_column.et_pb_column_1_3.et_pb_column_1_tb_body.et_pb_css_mix_blend_mode_passthrough {
+        width: 100% !important;
+    }
+    
+    /* Both the progress bar and the course navigation widget need to have a width of 100%*/
+    .lesson-page .et_pb_widget.widget_ldcourseprogress, .lesson-page .et_pb_widget.widget_ldcoursenavigation {
+        width: 100%
+    }
 }
  
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 1245px) {
-	.lesson-box {
-		height: 240px !important;
-	}
-	
-	.icon-background-top {
-    	height: 238px !important;
-	}
-	
-	.topic-title {
-    	top: -235px !important;
-	}
-	
-	.resources {
-    	width: 100% !important;
-		border-right: none !important;
-		top: -215px !important;
-	}
-	.videos {
-    	width: 100% !important;
-		border-right: none !important;
-		padding-left: 60px;
-		top: -200px !important;
-	}	
-	.quizzes {
-    	width: 100% !important;
-		border-right: none !important;
-		padding-left: 60px;
-		top: -185px !important;
-	}	
-	
-	.video-icon, .quiz-icon {
-    	float: none !important;
-    	padding-right: 10px;
-	}
-	
-	.lesson-page .et_pb_column.et_pb_column_4_4.et_pb_column_1.et_pb_css_mix_blend_mode_passthrough.et-last-child {
-		height: 1650px;
-	}
-	
+    .lesson-box {
+        height: 240px !important;
+    }
+    
+    .icon-background-top {
+        height: 238px !important;
+    }
+    
+    .topic-title {
+        top: -235px !important;
+    }
+    
+    .resources {
+        width: 100% !important;
+        border-right: none !important;
+        top: -215px !important;
+    }
+    .videos {
+        width: 100% !important;
+        border-right: none !important;
+        padding-left: 60px;
+        top: -200px !important;
+    }   
+    .quizzes {
+        width: 100% !important;
+        border-right: none !important;
+        padding-left: 60px;
+        top: -185px !important;
+    }   
+    
+    .video-icon, .quiz-icon {
+        float: none !important;
+        padding-right: 10px;
+    }
+    
+    .lesson-page .et_pb_column.et_pb_column_4_4.et_pb_column_1.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+        height: 1650px;
+    }
+    
 }
  
 /*** Responsive Styles Tablet Only ***/
@@ -238,19 +253,19 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
  
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-	.topic-content {
-    	width: 70% !important;
-  	}
-	.course-content
-	#background {
-    	height: 150px !important;
+    .topic-content {
+        width: 70% !important;
+    }
+    .course-content
+    #background {
+        height: 150px !important;
     }
 }
 /*** lesson page */
   .lesson-box {
-	border: 1px solid #3e3f40;
+    border: 1px solid #3e3f40;
     border-radius: 2px;
-	width: 100%;
+    width: 100%;
     height: 100px;
   }
   .video-image {
@@ -281,7 +296,7 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
     display: inline-block;
     position: relative;
     border-right: 1px solid #3e3f40;
-  	width: 40%;
+    width: 40%;
     padding-left: 60px;
     top: -80px;
     height: 30px;
@@ -306,7 +321,7 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
   }
   
   .resource-icon {
-		height: 30px;    
+        height: 30px;    
   }
   
   .video-icon, .quiz-icon {
@@ -324,25 +339,25 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
   
   .topic-span {
     /*color: #313131;*/
-	color: #1f4de0;
+    color: #1f4de0;
   }
 /* lesson page ends */
 
 /* Home page CSS starts */
 .home-header-background {
-	background-color:	rgba(0,0,0,0.6);
+    background-color:   rgba(0,0,0,0.6);
 }
 
 .et_pb_blurb_description {
-	position: absolute;
+    position: absolute;
     top: 25%;
     left: 35%;
 }
 
 /* disabled buttons */
 .disabled-blurb {
-	cursor: default;
-	pointer-events: none;
+    cursor: default;
+    pointer-events: none;
 }
 /* Home page CSS ends */
 
@@ -367,7 +382,7 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
 
 /* Next lesson button color starts*/
 .learndash-wrapper .ld-button span.ld-text {
-	color: white;
+    color: white;
 }
 
 .ld-icon-arrow-right:before, .ld-icon-arrow-left:before {
@@ -377,16 +392,16 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
 
 /* Hide the Default LearnDash Lesson List on Course Pages starts*/
 .ld-item-list.ld-lesson-list {
-	display: none;
+    display: none;
 }
 /* Hide the Default LearnDash Lesson List on Course Pages ends*/
 
 /* Hide the Default LearnDash Progress bar and breadcrumbs starts*/
 .ld-lesson-status {
-	display: none;
+    display: none;
 }
 .ld-topic-status {
-	display: none;
+    display: none;
 }
 /* Hide the Default LearnDash Progress bar and breadcrumbs ends*/
 
@@ -404,9 +419,9 @@ a.ld-primary-color.ld-course-step-back {
 
 /* Start - put the double arrow head icon in front of the title */
 .et-db #et-boc .et-l .et_pb_text_0_tb_body h1::before {
-	content: url('/wp-content/uploads/2021/10/Arrow-Title-Orange-01.png');
-	/*height: 65px;*/
-	position: relative;
+    content: url('/wp-content/uploads/2021/10/Arrow-Title-Orange-01.png');
+    /*height: 65px;*/
+    position: relative;
     top: 15px;
     padding-right: 20px;
 }
@@ -414,9 +429,9 @@ a.ld-primary-color.ld-course-step-back {
 
 /* Start - put the double arrow head icon in front of the title for Welding theory */
 .et-db #et-boc .et-l .welding-theory-course .et_pb_text_0_tb_body h1::before {
-	content: url('/wp-content/uploads/2021/11/Arrow-Title-Blue-01.png');
-	/*height: 65px;*/
-	position: relative;
+    content: url('/wp-content/uploads/2021/11/Arrow-Title-Blue-01.png');
+    /*height: 65px;*/
+    position: relative;
     top: 15px;
     padding-right: 20px;
 }
@@ -424,9 +439,9 @@ a.ld-primary-color.ld-course-step-back {
 
 /* Start - put the double arrow head icon in front of the title for Blueprint Reading Course */
 .et-db #et-boc .et-l .blueprint-reading-course .et_pb_text_0_tb_body h1::before {
-	content: url('/wp-content/uploads/2021/11/Arrow-Title-Purple-01.png');
-	/*height: 65px;*/
-	position: relative;
+    content: url('/wp-content/uploads/2021/11/Arrow-Title-Purple-01.png');
+    /*height: 65px;*/
+    position: relative;
     top: 15px;
     padding-right: 20px;
 }
@@ -434,40 +449,46 @@ a.ld-primary-color.ld-course-step-back {
 
 /* Start - put the double arrow head icon in front of the title for Math course */
 .et-db #et-boc .et-l .math-course .et_pb_text_0_tb_body h1::before {
-	content: url('/wp-content/uploads/2021/11/Arrow-Title-Gold-01.png');
-	/*height: 65px;*/
-	position: relative;
+    content: url('/wp-content/uploads/2021/11/Arrow-Title-Red-02.png');
+    /*height: 65px;*/
+    position: relative;
     top: 15px;
     padding-right: 20px;
 }
 /* End - put the double arrow head icon in front of the title for Math course */
 
-/* Start - put the double arrow head icon in front of the title for Welding theory */
+/* Start - put the double arrow head icon in front of the title for the Navigation Tutorial course */
 .et-db.learndash-cpt-sfwd-courses-3269-parent #et-boc .et-l .et_pb_text_0_tb_body h1::before, 
 .postid-3269.et-db #et-boc .et-l .et_pb_text_0_tb_body h1::before {
-	content: url('/wp-content/uploads/2021/11/Arrow-Title-Red-01.png');
-	/*height: 65px;*/
-	position: relative;
+    content: url('/wp-content/uploads/2021/11/Arrow-Title-Gold-01.png');
+    /*height: 65px;*/
+    position: relative;
     top: 15px;
     padding-right: 20px;
 }
-/* End - put the double arrow head icon in front of the title for Welding theory */
+/* End - put the double arrow head icon in front of the title for Navigation Tutorial */
 
 /* Start - Hide the line that appears below the h1 tag */
 .et-db #et-boc .et-l .et_pb_text_0_tb_body h1:after {
-	display: none;
+    display: none;
 }
 /* End - Hide the line that appears below the h1 tag*/
 
+/* Start - set Tutorial course name color in the sidebar */
+.et-db #et-boc .et-l .et_pb_sidebar_0_tb_body.et_pb_widget_area .ld-course-nav-3269 a.ld-home-link {
+    color: #bac4ae !important;
+}
+/* End - Set Tutorial course name color in the sidebar */
+
 /* Start - set Iron workers course name color in the sidebar */
 .et-db #et-boc .et-l .et_pb_sidebar_0_tb_body.et_pb_widget_area .ld-course-nav-142 a.ld-home-link {
-	color: #e9bc9e !important;
+    color: #e9bc9e !important;
 }
 /* End - set course name color in the sidebar */
 
 /* Start - set Welding theory course name color in the sidebar */
 .et-db #et-boc .et-l .et_pb_sidebar_0_tb_body.et_pb_widget_area .ld-course-nav-2039 a.ld-home-link {
-	color: #b6d6ed !important;
+    color: #b6d6ed !important;
 }
 /* End - set course name color in the sidebar */
 
@@ -479,22 +500,22 @@ a.ld-primary-color.ld-course-step-back {
 
 /* Start - set Math course name color in the sidebar */
 .et-db #et-boc .et-l .et_pb_sidebar_0_tb_body.et_pb_widget_area .ld-course-nav-2070 a.ld-home-link {
-    color: #bac4ae !important;
+    color: #dca69e !important;
 }
 /* End - Set Math course name color in the sidebar */
 
 
 .postid-142 a.ld-home-link::after {
- 	content: url('/wp-content/uploads/2021/10/Arrow-Menu-Orange-02.png');
-	float: right;
-	height: 32px;
+    content: url('/wp-content/uploads/2021/10/Arrow-Menu-Orange-02.png');
+    float: right;
+    height: 32px;
 }
 
 /* Start - Add blue-colored double arrows after the course title on the Welding theory course page */
 .postid-2039 a.ld-home-link::after {
- 	content: url('/wp-content/uploads/2021/11/Arrow-Menu-Blue-01.png');
-	float: right;
-	height: 32px;
+    content: url('/wp-content/uploads/2021/11/Arrow-Menu-Blue-01.png');
+    float: right;
+    height: 32px;
 }
 /* End - Add blue-colored double arrows after the course title on the Welding theory course page */
 
@@ -506,19 +527,19 @@ a.ld-primary-color.ld-course-step-back {
 }
 /* End - Add blue-colored double arrows after the course title on the Blueprint Reading course page */
 
-/* Start - Add double arrows after the course title on the Blueprint Reading course page */
+/* Start - Add double arrows after the course title on the Math course page */
 .postid-2070 a.ld-home-link::after {
-    content: url('/wp-content/uploads/2021/11/Arrow-Menu-Gold-01.png');
+    content: url('/wp-content/uploads/2021/11/Arrow-Menu-Red-02.png');
     float: right;
     height: 32px;
 }
-/* End - Add double arrows after the course title on the Blueprint Reading course page */
+/* End - Add double arrows after the course title on the Math course page */
 
 /* Start - Add double arrows after the course title on the Tutorial course page */
 .postid-3269 a.ld-home-link::after {
-    content: url('/wp-content/uploads/2021/11/Arrow-Menu-Red-01.png');
+    content: url('/wp-content/uploads/2021/11/Arrow-Menu-Gold-01.png');
     float: right;
-    height: 32px;	
+    height: 32px;   
 }
 /* End - Add double arrows after the course title on the Tutorial course page */
 
@@ -526,4 +547,10 @@ a.ld-primary-color.ld-course-step-back {
     .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_2_3, .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_1_3 {
         width: 100%;
     }    
+}
+
+.et-db #et-boc .et-l .et_pb_slides .et_pb_video_overlay_hover:hover .et_pb_video_play {
+    color: white !important;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
