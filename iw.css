@@ -23,6 +23,12 @@
 }
 /*End - For the selected lesson title which has a topic in it in the Math course */
 
+/* Start - For the selected lesson title which has a topic in it in the Blueprint Reading course */
+.learndash-wrapper .ld-course-navigation.ld-course-nav-2068 .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .learndash-wrapper .ld-course-navigation.ld-course-nav-2068 .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
+    color: white !important;
+}
+/* End - For the selected lesson title which has a topic in it in the Blueprint Reading course */
+
 .iw-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading, .iw-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-title {
     color: white !important;
     /*color: #fae7d1 !important;*/
@@ -78,6 +84,15 @@ a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-i
     right: 10px;
 }
 /*End - Display double arrows after the topic in the sidebar of the Math course */
+
+/*Start - Display double arrows after the topic in the sidebar of the Blueprint Tutorial course */
+.ld-course-nav-2068 a.ld-table-list-item-preview.ld-primary-color-hover.ld-topic-row.ld-is-current-item::after {
+    content: url(/wp-content/uploads/2021/11/Arrow-Menu-Purple-01.png);
+    height: 32px;
+    position: absolute;
+    right: 10px;
+}
+/*End - Display double arrows after the topic in the sidebar of the Blueprint Tutorial course */
 
 /*Start - Add double arrow after the currently active sidebar item in welding theory*/
 .welding-lesson-sidebar .learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading::after{
@@ -417,56 +432,8 @@ a.ld-primary-color.ld-course-step-back {
 }
 /* End - Hide the 'Back to Course' link on the lesson page*/
 
-/* Start - put the double arrow head icon in front of the title */
-.et-db #et-boc .et-l .et_pb_text_0_tb_body h1::before {
-    content: url('/wp-content/uploads/2021/10/Arrow-Title-Orange-01.png');
-    /*height: 65px;*/
-    position: relative;
-    top: 15px;
-    padding-right: 20px;
-}
-/* End - put the double arrow head icon in front of the title */
 
-/* Start - put the double arrow head icon in front of the title for Welding theory */
-.et-db #et-boc .et-l .welding-theory-course .et_pb_text_0_tb_body h1::before {
-    content: url('/wp-content/uploads/2021/11/Arrow-Title-Blue-01.png');
-    /*height: 65px;*/
-    position: relative;
-    top: 15px;
-    padding-right: 20px;
-}
-/* End - put the double arrow head icon in front of the title for Welding theory */
 
-/* Start - put the double arrow head icon in front of the title for Blueprint Reading Course */
-.et-db #et-boc .et-l .blueprint-reading-course .et_pb_text_0_tb_body h1::before {
-    content: url('/wp-content/uploads/2021/11/Arrow-Title-Purple-01.png');
-    /*height: 65px;*/
-    position: relative;
-    top: 15px;
-    padding-right: 20px;
-}
-/* End - put the double arrow head icon in front of the title for Blueprint Reading Course */
-
-/* Start - put the double arrow head icon in front of the title for Math course */
-.et-db #et-boc .et-l .math-course .et_pb_text_0_tb_body h1::before {
-    content: url('/wp-content/uploads/2021/11/Arrow-Title-Red-02.png');
-    /*height: 65px;*/
-    position: relative;
-    top: 15px;
-    padding-right: 20px;
-}
-/* End - put the double arrow head icon in front of the title for Math course */
-
-/* Start - put the double arrow head icon in front of the title for the Navigation Tutorial course */
-.et-db.learndash-cpt-sfwd-courses-3269-parent #et-boc .et-l .et_pb_text_0_tb_body h1::before, 
-.postid-3269.et-db #et-boc .et-l .et_pb_text_0_tb_body h1::before {
-    content: url('/wp-content/uploads/2021/11/Arrow-Title-Gold-01.png');
-    /*height: 65px;*/
-    position: relative;
-    top: 15px;
-    padding-right: 20px;
-}
-/* End - put the double arrow head icon in front of the title for Navigation Tutorial */
 
 /* Start - Hide the line that appears below the h1 tag */
 .et-db #et-boc .et-l .et_pb_text_0_tb_body h1:after {
@@ -509,6 +476,8 @@ a.ld-primary-color.ld-course-step-back {
     content: url('/wp-content/uploads/2021/10/Arrow-Menu-Orange-02.png');
     float: right;
     height: 32px;
+    position: relative;
+    top: -32px;
 }
 
 /* Start - Add blue-colored double arrows after the course title on the Welding theory course page */
@@ -519,11 +488,13 @@ a.ld-primary-color.ld-course-step-back {
 }
 /* End - Add blue-colored double arrows after the course title on the Welding theory course page */
 
-/* Start - Add blue-colored double arrows after the course title on the Blueprint Reading course page */
+/* Start - Add purple-colored double arrows after the course title on the Blueprint Reading course page */
 .postid-2068 a.ld-home-link::after {
     content: url('/wp-content/uploads/2021/11/Arrow-Menu-Purple-01.png');
     float: right;
     height: 32px;
+    position: relative;
+    top: -32px;
 }
 /* End - Add blue-colored double arrows after the course title on the Blueprint Reading course page */
 
@@ -540,8 +511,12 @@ a.ld-primary-color.ld-course-step-back {
     content: url('/wp-content/uploads/2021/11/Arrow-Menu-Gold-01.png');
     float: right;
     height: 32px;   
+    position: relative;
+    top: -32px;
 }
 /* End - Add double arrows after the course title on the Tutorial course page */
+
+
 
 @media only screen and (min-width: 981px) and (max-width: 1250px) {
     .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_2_3, .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_1_3 {
